@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project name="Ant Basics" default="userDefinedProperties" >
+
+  <property file="D:\Devops\Bulid tools\ANT\Examples\user-defined-props.properties"/>
+	
+	<target name="userDefinedProperties">
+		
+		<!--- Getting user defined property values  -->
+		<echo> User defined property (technology) value is ---> ${technology} </echo>
+		<echo> User defined property (trainer) value defined  is --->  ${trainer} </echo>
+		<echo> User defined property (organization) value defined  is --->  ${organization} </echo>
+		
+	</target>
+
+</project>
